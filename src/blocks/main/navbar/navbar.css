@@ -1,0 +1,6 @@
+.navbar {
+	background-color: black;
+	border-bottom: 3px solid hsla(0, 0%, 77%, 0.1);
+	max-height: 80px;
+	padding: 19px 104px 10px;
+}

@@ -1,11 +1,8 @@
+import React from "react";
+
 const Navbar = () => (
-	<nav
-		style={{
-			display: "flex",
-			justifyContent: "space-between",
-			padding: "15px",
-		}}>
-		<img src={logo} alt="logo" style={{ height: "30px" }} />
+	<nav className="navbar">
+		<button>News App</button>
 		<div>
 			<button style={{ marginRight: "15px" }}>Home</button>
 			<button>Search</button>

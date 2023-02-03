@@ -1,6 +1,7 @@
 @import url(./blocks/main/main.css);
 @import url(./blocks/main/__photo/main__photo.css);
 @import url(./blocks/main/__header/main__header.css);
+@import url(./blocks/main/navbar/navbar.css);
 
 body {
 	margin: 0;

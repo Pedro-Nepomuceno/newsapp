@@ -1,4 +1,4 @@
-import photo from "../images/websitephoto.png";
+import photo from "../images/worldwebsite.png";
 import React from "react";
 
 function Main() {
