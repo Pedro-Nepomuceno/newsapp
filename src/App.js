@@ -1,13 +1,12 @@
 import "./App.css";
 import React from "react";
-import photo from "../src/images/newsPhoto.png";
+import Main from "./components/Main";
+import "./index.css";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img src={photo} />
-			</header>
+			<Main />
 		</div>
 	);
 }

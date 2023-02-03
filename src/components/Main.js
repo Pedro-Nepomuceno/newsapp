@@ -1,4 +1,4 @@
-import photo from "../src/images/newsPhoto.png";
+import photo from "../images/websitephoto.png";
 import React from "react";
 
 function Main() {
