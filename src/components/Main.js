@@ -5,11 +5,14 @@ import Search from "./Search";
 
 const Container = styled.div`
 	background-color: black;
+	display: flex;
+	align-items: center;
 	background-image: url(${photo});
+	background-position: left center;
+	position: relative;
 	background-repeat: no-repeat;
-	padding-left: 300px;
-	width: 2000px;
-	height: 2000px;
+	padding-left: 500px;
+	height: 800px;
 `;
 
 function Main() {
