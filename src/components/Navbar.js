@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import logo from "../images/cutelogo.png";
+
 import {
 	NavbarContainer,
 	LeftContainer,
@@ -12,6 +12,7 @@ import {
 	Logo,
 	OpenLinksButton,
 	NavbarLinkExtended,
+	SignButton,
 } from "./Navbar.style";
 
 function Navbar() {
@@ -21,11 +22,12 @@ function Navbar() {
 		<NavbarContainer extendNavbar={extendNavbar}>
 			<NavbarInnerContainer>
 				<LeftContainer>
+					<Logo src={logo}></Logo>
+				</LeftContainer>
+				<RightContainer>
 					<NavbarLinkContainer>
 						<NavbarLink to="/"> Home</NavbarLink>
-						<NavbarLink to="/products"> Products</NavbarLink>
-						<NavbarLink to="/contact"> Contact Us</NavbarLink>
-						<NavbarLink to="/about"> About Us</NavbarLink>
+						<SignButton>Sign in</SignButton>
 						<OpenLinksButton
 							onClick={() => {
 								setExtendNavbar((curr) => !curr);
@@ -33,20 +35,16 @@ function Navbar() {
 							{extendNavbar ? <>&#10005;</> : <> &#8801;</>}
 						</OpenLinksButton>
 					</NavbarLinkContainer>
-				</LeftContainer>
-				<RightContainer>
-					<Logo src={logo}></Logo>
 				</RightContainer>
 			</NavbarInnerContainer>
 			{extendNavbar && (
 				<NavbarExtendedContainer>
 					<NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-					<NavbarLinkExtended to="/products"> Products</NavbarLinkExtended>
-					<NavbarLinkExtended to="/contact"> Contact Us</NavbarLinkExtended>
-					<NavbarLinkExtended to="/about"> About Us</NavbarLinkExtended>
+					<NavbarLinkExtended to="/products"> Sign in </NavbarLinkExtended>
 				</NavbarExtendedContainer>
 			)}
 		</NavbarContainer>
 	);
 }
+
 export default Navbar;
