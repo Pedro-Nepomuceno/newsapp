@@ -14,9 +14,11 @@ const Container = styled.div`
 
 function Main() {
 	return (
-		<Container>
-			<Search></Search>
-		</Container>
+		<>
+			<Container>
+				<Search></Search>
+			</Container>
+		</>
 	);
 }
 

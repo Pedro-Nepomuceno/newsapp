@@ -59,19 +59,24 @@ const ButtonSubmit = styled.button`
 	position: absolute;
 	right: 0;
 	width: 168px;
+	&:hover {
+		cursor: pointer;
+	}
 `;
 
 function Search() {
 	return (
-		<SearchContainer>
-			<Text>What is going on in the world ?</Text>
-			<SubText>Information on the tip of your fingers.</SubText>
+		<>
+			<SearchContainer>
+				<Text>What is going on in the world ?</Text>
+				<SubText>Information on the tip of your fingers.</SubText>
 
-			<FormContainer>
-				<FormInput>Enter topic</FormInput>
-				<ButtonSubmit>Search</ButtonSubmit>
-			</FormContainer>
-		</SearchContainer>
+				<FormContainer>
+					<FormInput></FormInput>
+					<ButtonSubmit>Search</ButtonSubmit>
+				</FormContainer>
+			</SearchContainer>
+		</>
 	);
 }
 

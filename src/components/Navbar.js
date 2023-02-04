@@ -9,7 +9,7 @@ const HomeButton = styled.button`
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 24px;
-
+	margin-top: 45px;
 	padding: 0 20px 23px;
 	margin-right: 50px;
 
