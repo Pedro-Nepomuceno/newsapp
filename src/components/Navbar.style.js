@@ -27,7 +27,7 @@ export const NavbarContainer = styled.nav`
 	height: ${(props) => (props.extendNavbar ? "100vh" : "350px")};
 	background-color: black;
 	display: flex;
-	padding-bottom: 100px;
+
 	flex-direction: column;
 	@media (min-width: 700px) {
 		height: 80px;

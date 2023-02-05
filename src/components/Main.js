@@ -7,12 +7,7 @@ const Container = styled.div`
 	background-color: black;
 	display: flex;
 	align-items: center;
-	background-image: url(${photo});
-	background-position: left center;
-	position: relative;
-	background-repeat: no-repeat;
-	padding-left: 500px;
-	height: 800px;
+	height: 100vh;
 `;
 
 function Main() {
